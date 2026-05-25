@@ -1,0 +1,21 @@
+# ── Core MCP framework ─────────────────────────────────────────────────────────
+fastmcp>=2.14.0
+
+# ── HTTP / server ──────────────────────────────────────────────────────────────
+httpx>=0.28.0
+uvicorn>=0.34.0
+starlette>=0.45.0
+
+# ── Config ─────────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Document processing ────────────────────────────────────────────────────────
+pypdf>=3.9.0          # PDF text extraction
+python-docx>=1.1.0    # Word (.docx) extraction
+
+# ── Optional — uncomment as needed ────────────────────────────────────────────
+# openpyxl>=3.1.0     # Excel .xlsx
+# xlrd>=2.0.1         # Excel .xls (legacy)
+# pytesseract>=0.3.10 # OCR for image files
+# Pillow>=10.0.0      # Image processing (required by pytesseract)
+# chardet>=5.2.0      # Auto-detect text file encoding
